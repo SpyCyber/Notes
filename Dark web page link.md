@@ -1,4 +1,4 @@
-Search Engine
+Search Engine on tor browser collection is only Educitional Purpose. 
 
 Ahmia  
 http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/
@@ -40,12 +40,14 @@ https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/
 CIA
 http://ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion
 
+
 Bitcoin wallets
 
 Wasabi Wallet
 http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion
 
 Email services
+
 ProtonMail
 https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/
 
@@ -81,7 +83,6 @@ http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion/
 
 Dread
 http://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion
-
 
 
 
