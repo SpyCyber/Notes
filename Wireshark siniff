@@ -1,0 +1,19 @@
+##Install Wireshark on Kali Linux
+sudo apt-get install wireshark 
+
+##To filter the packet 
+http.request.method=="GET"
+http.request.method == GET or http.request.method == POST
+
+##To Install FTP
+sudo apt-get install vsftpd
+service vsftpd start
+service vsftpd status
+
+##Edit on file 
+sudo nano /etc/vsftpd.conf
+anonymous_enable=YES
+
+##Restart the services
+service vsftpd stop
+#service vsftpd start
