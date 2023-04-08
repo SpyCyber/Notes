@@ -1,0 +1,12 @@
+cd lscript
+chmod +x install.sh
+./install.sh
+
+To Check the Monitor mode
+iwconfig 
+
+To change mode to Monitor mode
+airmon-ng start wlan0
+
+Open the new terminal and type "l"
+"l" to start lazy script
