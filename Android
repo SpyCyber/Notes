@@ -1,0 +1,14 @@
+After Android is installed, you may find you can’t enter the GUI. It just gives you some command lines. In this case, you try the following method to solve the problem.
+
+Step 1: Choose File > Close > Power off the machine. Start the Android VM again, but this time choose Advanced options > Boot from local drive > Android x86 debug mode.
+
+Step 2: Execute the following commands one by one to open the menu.lst file.
+
+mount –o remount,rw /mnt
+vi /mnt/grub/menu.lst
+open the menu.lst file
+Step 3: After the menu.lst file is opened, press “i” key to enter the edit mode. Then, add “nomodeset_” before “quiet root”. After that, press “Esc” key to exit the edit mode. Then, press “:wq” and Enter to save changes and quit.
+
+Tip: When I type the “:wq” command, I get the “:wq not found” error and I fail to solve the problem. I just continue to power off the machine and the method works still. If you also receive this error, just ignore it and continue.
+edit the menu.lst file
+Step 4: Choose File > Close > Power off the machine. Then, start the Android VM again and choose Advanced options > Boot from local drive > Android x86. Wait until you enter the GUI. Then, you will get the following picture. Please follow the on-screen instructions to set up Android.
